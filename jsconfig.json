@@ -1,0 +1,10 @@
+{
+  "include": ["src/**/*.vue", "src/**/*.js"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
